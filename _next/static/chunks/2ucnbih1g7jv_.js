@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,95592,e=>{"use strict";var i=e.i(43476),t=e.i(61010),n=e.i(40253),o=e.i(73636);e.s(["default",0,function(){return(0,i.jsx)(t.f,{children:e=>(0,i.jsx)(n.f,{title:"Informe semanal",who:e,children:(0,i.jsx)(o.F,{})})})}])}]);
