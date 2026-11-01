@@ -1,7 +1,7 @@
-:HL["/adsscores-preview/_next/static/chunks/13pkl3q-su_gm.css","style"]
+:HL["/adsscores-preview/_next/static/chunks/1po8vs5qjj49d.css","style"]
 :HL["/adsscores-preview/_next/static/media/07c7676b89ed2778-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/adsscores-preview/_next/static/media/abc90e3a599e849c-s.p.2y2uoi4t910qy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":"radar-competencia","h":96,"c":"$Q3"}]]
 1:[["children",{"s":"app","h":96,"c":"$Q2"}]]
-0:{"b":"Uucs1yra3BZ_8N-m-gqJZ","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"Sp35Di685_rNBCu1BYcaK","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
