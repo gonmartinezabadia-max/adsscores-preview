@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,27168,t=>{"use strict";var i=t.i(43476),e=t.i(61010),l=t.i(40253),r=t.i(73636);t.s(["default",0,function(){return(0,i.jsx)(e.f,{children:t=>(0,i.jsx)(l.f,{title:"Salud y alertas",who:t,children:(0,i.jsx)(r.N,{})})})}])}]);
