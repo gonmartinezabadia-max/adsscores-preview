@@ -1,4 +1,4 @@
 :HL["/adsscores-preview/_next/static/chunks/0gmyp3plwexzb.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"2vpqtNP2p0RO50H2nDQk0","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"xaKyPcLTfV5D_S2ZUc-p0","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
