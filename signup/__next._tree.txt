@@ -3,4 +3,4 @@
 :HL["/adsscores-preview/_next/static/media/abc90e3a599e849c-s.p.2y2uoi4t910qy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"signup","h":96,"c":"$Q2"}]]
-0:{"b":"-u4TB12IOJ2Vj-sP4x2zv","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"6qKnEj4xnLbRpqfiC3tWn","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
