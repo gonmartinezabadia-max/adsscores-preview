@@ -4,6 +4,8 @@ Run from the gh-pages checkout. No build or provider operation is performed.
 Requires an explicit expected remote HEAD and refuses dirty/concurrent checkouts.
 """
 import argparse, pathlib, subprocess, shutil
+import sys
+sys.dont_write_bytecode = True
 from required_assets import prepare, verify
 p=argparse.ArgumentParser(description=__doc__)
 p.add_argument('--export', required=True, type=pathlib.Path)
