@@ -572,13 +572,14 @@
   "auth/google/index.txt": "8ed6c0fe52f8c8485e5f10e9ee3f184993e5e3c61d8177bc55cdf2fda92b8c14",
   "favicon.ico": "c28fdd2a4f31e2dc64f653962286da5c82a4cdfc518b242d32812c624e9a19a4",
   "feed-prueba-simulado.csv": "f871646b9237be93f46f6550157f229f3b5b6ae6a3b7090de95f8ed86fb73999",
-  "index.html": "865c30a68aaa69ca64d7cc4e5b4450ada9077e631ccd5ac183af53abf885247e",
+  "index.html": "0421b0e3438d539059a713e9d5373fdaf13a2edeee90a005900739ccce6e4e61",
   "index.txt": "c64284c9f9dd71e77be71bface370ef75871c45dbb5b581c545aa4b7f3191564",
   "login/__next._full.txt": "dadf355859ca17cc16746340ad2130a8bf03cfd9f69b07a047d9b1a0f32894db",
   "login/__next._tree.txt": "a22f77eb2627f2c51d977539a74f45900972f76fb739affda805972b70991ca5",
   "login/__next.login.__PAGE__.txt": "0eb5c6d49bc41123ff871f628fcc0518732b617ccfd88132470d5edf102513fd",
   "login/index.html": "6303945919bb9efc7e6f37cab57d6f59bea6c5b951189a8456d4a4e1783ecc9d",
   "login/index.txt": "dadf355859ca17cc16746340ad2130a8bf03cfd9f69b07a047d9b1a0f32894db",
+  "privacy.html": "44d4c63a02536b12cb5e6567c66df8f99bfa9ca75aafc6b75d4a408208ca358d",
   "rayo-framer.png": "785257c8036c47981b699e763a32a958adb4c1dea0265ba5d7202a91ad844628",
   "review461.html": "9e36dbaaa70b4724ae1089b9ac005ac4c9e6c40fc67a0884cbf261e16d5219c3",
   "shots/agente.png": "6284e0abdd6cb20c65a4f12005788d03ae78008b2b4a2e4f2af084ed2efd15bc",
@@ -589,5 +590,6 @@
   "signup/__next._tree.txt": "d3ac997dd8504091126fa5e9215846b8acc151b92a2eb30307bb025d1805400a",
   "signup/__next.signup.__PAGE__.txt": "4c53fb8eba8f2c776365c024cf4f6acb55e9cadbccfb97a17114b96c0890f7e9",
   "signup/index.html": "b89cbf412c5cc6e1e8ed90af91ddfd7519cd8034d0b479e75ef04dc2f1b4ed06",
-  "signup/index.txt": "7b6514ba04dd9b6bc4848021b118e11dab85749f8643eb7fed933973196bd18b"
+  "signup/index.txt": "7b6514ba04dd9b6bc4848021b118e11dab85749f8643eb7fed933973196bd18b",
+  "terms.html": "7ffdba4b288de3d0faaeaf90662e7eccdde0669c9f0c65a0562b3feb3fbd3418"
 }
