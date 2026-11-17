@@ -1,0 +1,4 @@
+id,title,description,availability,condition,price,link,image_link,brand,additional_notes
+PRUEBA-SIM-001,"PRUEBA SIMULADO Producto Alfa (no real)","Producto simulado para pruebas de catalogo Ads Scores. No es un articulo real ni esta a la venta.",in stock,new,"10,00 EUR",https://adsscores.com,https://adsscores.com/icon.png,AdsScoreSimulado,"DATOS SIMULADOS - PRUEBA"
+PRUEBA-SIM-002,"PRUEBA SIMULADO Producto Beta (no real)","Producto simulado para pruebas de catalogo Ads Scores. No es un articulo real ni esta a la venta.",in stock,new,"20,00 EUR",https://adsscores.com,https://adsscores.com/icon.png,AdsScoreSimulado,"DATOS SIMULADOS - PRUEBA"
+PRUEBA-SIM-003,"PRUEBA SIMULADO Producto Gamma (no real)","Producto simulado para pruebas de catalogo Ads Scores. No es un articulo real ni esta a la venta.",in stock,new,"30,00 EUR",https://adsscores.com,https://adsscores.com/icon.png,AdsScoreSimulado,"DATOS SIMULADOS - PRUEBA"
