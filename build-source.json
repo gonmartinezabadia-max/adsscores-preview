@@ -4,19 +4,19 @@
     "reason": "Gateway deploys independently; no backend identity inferred from a frontend build"
   },
   "export": {
-    "file_count": 593,
+    "file_count": 597,
     "manifest": "build-files.json",
-    "manifest_sha256": "048f9aba62e3175e33e75610cb8f8fcecca78fec4c054458fede23897d102e4e",
+    "manifest_sha256": "be2169e6feaae12f9c18d8fe22b84444ee9906174ea1b41d3e409eb23ebc12d2",
     "scope": "all published files except provenance, .git and .github; includes retained static chunks"
   },
-  "generated_at": "2026-11-17T16:16:18.280831+00:00",
-  "provenance_mode": "retrospective_existing_export",
-  "release": "tiktok-test-rename-r4-static-legal-20261117",
+  "generated_at": "2026-11-17T20:59:14.806685+00:00",
+  "provenance_mode": "postbuild_source_and_export_inventory",
+  "release": "shopify-visible-receipt-20261117",
   "schema_version": 2,
   "source": {
     "base_commit": "ce4f917b06f9869af0615e71500fbfedccdd13a1",
     "commit_is_base_only": true,
     "tree_manifest": "build-inputs.json",
-    "tree_sha256": "a249cbd6ce4781f1b249c4c6106f6fcf4fbb955d40af0cf6e764a4e4fbb18cb6"
+    "tree_sha256": "5253ec95dbd22226e742fb2e123994e1ed33ec43be86baa0de778cccf153402b"
   }
 }
