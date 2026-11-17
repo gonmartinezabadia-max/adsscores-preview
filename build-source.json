@@ -1,0 +1,8 @@
+{
+  "source_commit": "142a1cf6adcfec822760ee0800db13ffa31214c8",
+  "source_clean": true,
+  "author": "Instinct Agent <agent@instinct.com>",
+  "build": "next build --webpack",
+  "reviewed_parent": "f3705ec6e584881a5d738ee39442b2efe7e21ed6",
+  "delta": "helper text only, TikTok TEST pinned"
+}
