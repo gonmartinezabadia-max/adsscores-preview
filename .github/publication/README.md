@@ -1,26 +1,33 @@
-# Publicación de Ads Scores preview
+# Publicación y procedencia por export
 
-Los cuatro recursos en `required-assets/` son fixtures históricos, byte a byte del commit `7083c43edd74639618ef1659ca5da707c4751cda`.
-`build-commit.txt` y `build-source.json` describen aquella entrega histórica, NO el commit actual de Pages. No regenerarlos para simular una procedencia distinta.
+Solo `feed-prueba-simulado.csv` y `review461.html` son fixtures byteexact de7083. Los archivos build-* NUNCA se copian desde fixtures.
 
-## Publicar un export revisado
+## Build fuente
 
-Desde un checkout limpio de `gh-pages`:
+Asignar ADS_SCORES_RELEASE para cada build (por ejemplo ADS_SCORES_RELEASE=tiktok-test-rename-r4 npm run build). `postbuild` falla si falta o está vacía, no usa una release fija.
 
-```sh
-python3 .github/publication/publish.py --export /ruta/al/export --expected-head COMMIT_REMOTO_VERIFICADO --message 'Descripción del cambio' --push
+`prebuild` verifica los dos fixtures en public. `postbuild` verifica out y genera:
+- build-source.json: release, fecha, hash de inventario fuente y export, commit BASE si existe.
+- build-files.json: SHA256 de cada archivo publicado excepto estos cuatro metadatos, .git y .github. Incluye chunks retenidos.
+- build-inputs.json: inventario de fuente observado; excluye artefactos de build, node_modules y metadatos generados.
+- build-commit.txt: puntero al hash del inventario fuente. Ya no simula que el commit base identifica el árbol modificado.
+
+No se infiere el backend: gateway se despliega por separado. Este inventario acredita bytes observados, no es una firma ni prueba de reproducibilidad del compilador.
+
+## Publicar
+
+En checkout limpio gh-pages, con export ya revisado y metadatos válidos:
+
+```
+python3 .github/publication/publish.py --export /ruta/export --source /ruta/fuente/web --release IDENTIDAD_RELEASE --expected-head SHA_REMOTO_VERIFICADO --message 'Descripción' --push
 ```
 
-El script comprueba HEAD local/remoto, incorpora los recursos al export ANTES del rsync, conserva `.github` y los chunks estáticos previos, verifica los cuatro hashes y vuelve a comprobar concurrencia antes de enviar. Sin `--push` solo prepara el árbol para inspección. No usar el rsync suelto ni los helpers antiguos de una entrega.
+El publicador propaga provenance_mode desde el build-source.json del export, o rechaza un modo desconocido. Nunca convierte retrospectivo en postbuild. Se verifica procedencia ANTES de rsync, se conservan .github y chunks anteriores, se regeneran los metadatos sobre el árbol final (incluidos chunks retenidos) y se verifica antes de enviar. Solo entonces se comprueba HEAD remoto y se publica. No usar rsync suelto.
 
-El build fuente también debe incluir estos cuatro archivos en `web/public`, con los scripts `prebuild` y `postbuild` que verifican `public` y `out`. El paquete de corrección incluye este delta del origen.
+El hook postbuild debe generar sobre el export original. No copiar build-* de una entrega previa. Ante HTML/chunk añadido, eliminado o alterado, verify aborta. No usar generate para encubrir cambios no revisados.
 
-El workflow `required-preview-resources.yml` queda preparado pero NO activo: GitHub rechazó su publicación porque la credencial no tiene permiso workflow. Las pruebas locales verifican que cada ausencia y cada alteración se rechazan. La barrera previa al envío es `publish.py`, no un branch protection ni un bloqueo del workflow implícito Pages. No se han cambiado los ajustes de Pages.
+## Reparación retrospectiva de hoy
 
-## Comprobar después del deploy
+No se recompila ni altera HTML/JS de la UI ya servida. Se inventaría el export existente como `retrospective_existing_export`, release tiktok-test-rename-r4. La fuente inventariada es el árbol local observado al reparar; NO prueba que cada byte de ese árbol fuese entrada del compilador anterior. El commit base ce4f917 es solo base y NO se presenta como source_commit limpio. El inventario export sí verifica exactamente los HTML/chunks servidos. La auditoría compara todos los bytes publicados, no solo el chunk de Aprobaciones.
 
-1. Esperar el workflow Pages del commit enviado.
-2. Descargar los cuatro recursos desde la URL publicada y comparar SHA256 contra `required-assets/sha256.json`.
-3. Abrir `/app/aprobaciones/` y verificar visualmente los flujos existentes.
-
-La revisión documental `review461.html` está disponible como página aislada. El bridge/iframe histórico no forma parte del frontend 7083/r4 y no se ha reintroducido con esta corrección. No activar ni ejecutar campañas para probar archivos estáticos.
+Verificación: `python3 .github/publication/provenance.py verify .`, pruebas `test_provenance.py` y `test_required_assets.py`. CI opcional sigue sin permiso workflow; no se afirma gate automático remoto ni branch protection. El script de publicación es el gate operativo.

@@ -7,9 +7,12 @@ import argparse, pathlib, subprocess, shutil
 import sys
 sys.dont_write_bytecode = True
 from required_assets import prepare, verify
+from provenance import generate as provenance_generate, verify as provenance_verify, publication_mode
 p=argparse.ArgumentParser(description=__doc__)
 p.add_argument('--export', required=True, type=pathlib.Path)
 p.add_argument('--expected-head', required=True)
+p.add_argument('--source', required=True, type=pathlib.Path)
+p.add_argument('--release', required=True)
 p.add_argument('--message', required=True)
 p.add_argument('--push', action='store_true')
 a=p.parse_args()
@@ -27,9 +30,14 @@ if not (src/'index.html').is_file() or not (src/'app/aprobaciones/index.html').i
     raise SystemExit('Not an Ads Scores static export')
 # Preserve fixture bytes in the export before any destructive sync.
 prepare(src)
+provenance_verify(src,a.source.resolve()) # Fail before destructive sync if stale or altered.
 subprocess.run(['rsync','-a','--delete','--exclude=.git','--exclude=.github','--exclude=.nojekyll','--exclude=_next/static',str(src)+'/',str(repo)+'/'],check=True)
 subprocess.run(['rsync','-a',str(src/'_next/static')+'/',str(repo/'_next/static')+'/'],check=True)
 verify(repo)
+# Retained chunks are part of what is served, so regenerate against the final tree.
+provenance_verify(src,a.source.resolve())
+provenance_generate(repo,a.source.resolve(),a.release,publication_mode(src))
+provenance_verify(repo)
 remote_unchanged()
 if a.push:
     subprocess.run(['git','add','-A'],check=True)

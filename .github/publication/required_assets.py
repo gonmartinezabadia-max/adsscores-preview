@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Required preview resources: prepare an export or verify a publication.
-The bytes are historical fixtures from 7083c43e, not current deployment metadata.
+Only CSV and review HTML are fixed fixtures. Build provenance is generated separately.
 """
 import argparse, hashlib, json, pathlib, shutil, subprocess
 ROOT = pathlib.Path(__file__).resolve().parent
