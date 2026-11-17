@@ -4,19 +4,19 @@
     "reason": "Gateway deploys independently; no backend identity inferred from a frontend build"
   },
   "export": {
-    "file_count": 597,
+    "file_count": 600,
     "manifest": "build-files.json",
-    "manifest_sha256": "be2169e6feaae12f9c18d8fe22b84444ee9906174ea1b41d3e409eb23ebc12d2",
+    "manifest_sha256": "7d1ab7d891fd57ee551bbac15028cb4b146c51412194e06ba13d0806d2f6268d",
     "scope": "all published files except provenance, .git and .github; includes retained static chunks"
   },
-  "generated_at": "2026-11-17T20:59:14.806685+00:00",
+  "generated_at": "2026-11-17T21:06:09.538438+00:00",
   "provenance_mode": "postbuild_source_and_export_inventory",
-  "release": "shopify-visible-receipt-20261117",
+  "release": "chat-shopify-final-receipt-20261117",
   "schema_version": 2,
   "source": {
     "base_commit": "ce4f917b06f9869af0615e71500fbfedccdd13a1",
     "commit_is_base_only": true,
     "tree_manifest": "build-inputs.json",
-    "tree_sha256": "5253ec95dbd22226e742fb2e123994e1ed33ec43be86baa0de778cccf153402b"
+    "tree_sha256": "0327f0a037ad4dc7afa6a977714c1ace84d18313b3ca9bc2c47dd59df7e8a3a4"
   }
 }
