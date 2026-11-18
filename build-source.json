@@ -4,19 +4,19 @@
     "reason": "Gateway deploys independently; no backend identity inferred from a frontend build"
   },
   "export": {
-    "file_count": 695,
+    "file_count": 710,
     "manifest": "build-files.json",
-    "manifest_sha256": "a013d557bdf14e05c0943554c35c0f3e639952369ed5603907bae14af3a2df59",
+    "manifest_sha256": "c0e27db804727a20b8f31a1104ad2a627958dd205295e9995530ebae3dc0eba1",
     "scope": "all published files except provenance, .git and .github; includes retained static chunks"
   },
-  "generated_at": "2026-11-18T15:53:50.069000+00:00",
+  "generated_at": "2026-11-18T16:05:17.889138+00:00",
   "provenance_mode": "postbuild_source_and_export_inventory",
-  "release": "c12-c14-combined-r1-20261118",
+  "release": "tiktok-c14-receipt-ui-r1-20261118",
   "schema_version": 2,
   "source": {
     "base_commit": null,
     "commit_is_base_only": true,
     "tree_manifest": "build-inputs.json",
-    "tree_sha256": "bfe1a11e9da5586d4c2fee2424d1774b7e1b67963473acce7e7d8af553ec5db0"
+    "tree_sha256": "777a8a9859f0b12a44e4335ba613cf3900e06de00f77fd522a17d6a18a1ce34f"
   }
 }
