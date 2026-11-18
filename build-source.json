@@ -4,19 +4,19 @@
     "reason": "Gateway deploys independently; no backend identity inferred from a frontend build"
   },
   "export": {
-    "file_count": 682,
+    "file_count": 688,
     "manifest": "build-files.json",
-    "manifest_sha256": "b5d378b882a73af86f0e333148a72f15f1181375df9ec99dae94d6e5e5d3ee95",
+    "manifest_sha256": "7da5257c9c2dfaabb46f1359f55dd54fc4a6cc2b0ff04d0abde5760a5397e585",
     "scope": "all published files except provenance, .git and .github; includes retained static chunks"
   },
-  "generated_at": "2026-11-18T13:10:28.713980+00:00",
+  "generated_at": "2026-11-18T14:03:49.625663+00:00",
   "provenance_mode": "postbuild_source_and_export_inventory",
-  "release": "google-reauth156-dark",
+  "release": "tiktok-c14-canonical-r5-20261118",
   "schema_version": 2,
   "source": {
     "base_commit": null,
     "commit_is_base_only": true,
     "tree_manifest": "build-inputs.json",
-    "tree_sha256": "12ae7b3239d0b3a664c3b656082d85ea99322eabdb0917e8d16e7f46b4866fff"
+    "tree_sha256": "e47ec618fcf45cce167af4c250bdc16807e563ee32abe0e6023ef052aeebeb8f"
   }
 }
