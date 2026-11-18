@@ -4,19 +4,19 @@
     "reason": "Gateway deploys independently; no backend identity inferred from a frontend build"
   },
   "export": {
-    "file_count": 678,
+    "file_count": 682,
     "manifest": "build-files.json",
-    "manifest_sha256": "54b129d2dd259320730f84f13228dc7cc015663a5be24accfe6a19af2ce50a7a",
+    "manifest_sha256": "b5d378b882a73af86f0e333148a72f15f1181375df9ec99dae94d6e5e5d3ee95",
     "scope": "all published files except provenance, .git and .github; includes retained static chunks"
   },
-  "generated_at": "2026-11-18T12:45:40.265427+00:00",
+  "generated_at": "2026-11-18T13:10:28.713980+00:00",
   "provenance_mode": "postbuild_source_and_export_inventory",
-  "release": "google-bind155-ui",
+  "release": "google-reauth156-dark",
   "schema_version": 2,
   "source": {
     "base_commit": null,
     "commit_is_base_only": true,
     "tree_manifest": "build-inputs.json",
-    "tree_sha256": "cdbed38904fb174b19d3087725b42bd794812db9b5ad406bbbd885b508945f3e"
+    "tree_sha256": "12ae7b3239d0b3a664c3b656082d85ea99322eabdb0917e8d16e7f46b4866fff"
   }
 }
