@@ -132,7 +132,7 @@
   "components/views/PerfilView.tsx": "c6b377ee9a10a56765f65b24f4b658daf8bfc10bf5e3fd409abffcf61d4d531b",
   "components/views/PlatformView.tsx": "a6d86d93a0a18dad78500a91cd94ac6e9b690b04f4faf0d84f69da129309f139",
   "components/views/RoadmapView.tsx": "9378a7bbfce35f3771fc3fe483222122edd087f39134b5b6ce0876e6dd800d18",
-  "components/views/ShopifyView.tsx": "840fca3f1adada918a8f8aed1d47437652542ff089da8daaf1d505abb4dcff41",
+  "components/views/ShopifyView.tsx": "5daaadc5a141171ae8312a592b5de2f810293cf397b51482949c7bd5c30e63ac",
   "components/views/profileShared.tsx": "2e7dcd345a3612512fab79146689b4b136a85170f36b8ccd93302a21a674fe02",
   "edge/deno-entry.ts": "c841988479cc278461ad37d2ba447b0343bc678fe916561e6eb2dd244a1e1b96",
   "edge/lsserve.test.mjs": "7814a8165a9d431a30466995988ae23c91ce8fc39b619db887c4cba9cbb88c9d",
