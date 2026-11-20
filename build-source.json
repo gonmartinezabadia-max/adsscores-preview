@@ -6,17 +6,17 @@
   "export": {
     "file_count": 231,
     "manifest": "build-files.json",
-    "manifest_sha256": "68e9ec9a591985c0994d37d99e06515e3287395662890d5b4d157b288bfca6bc",
+    "manifest_sha256": "c2b703bd797b93e3f0922c6b8bbaa4640e6b18de56ca258cd05e85d6d556bca6",
     "scope": "all published files except provenance, .git and .github; includes retained static chunks"
   },
-  "generated_at": "2026-11-20T15:43:40.450869+00:00",
+  "generated_at": "2026-11-20T15:49:21.032068+00:00",
   "provenance_mode": "postbuild_source_and_export_inventory",
-  "release": "shopify-renew-r23",
+  "release": "shopify-renew-r23b",
   "schema_version": 2,
   "source": {
     "base_commit": null,
     "commit_is_base_only": true,
     "tree_manifest": "build-inputs.json",
-    "tree_sha256": "bd4d05ae7db2872be83ac94bf7e6a10f6090e92c04d51ebc90d15a42aa843778"
+    "tree_sha256": "8d3a6fa1d31a5f5f1c5f1830942385114d7c899ddf8a78183af614598247068f"
   }
 }
