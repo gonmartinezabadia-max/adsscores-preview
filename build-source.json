@@ -4,19 +4,19 @@
     "reason": "Gateway deploys independently; no backend identity inferred from a frontend build"
   },
   "export": {
-    "file_count": 260,
+    "file_count": 267,
     "manifest": "build-files.json",
-    "manifest_sha256": "f0b71b88bd895c4cb4229ff59ac49d7de8fc6ee7f1573f62cfef3ca4436e64a5",
+    "manifest_sha256": "5652c2a4b232ec14e1139619f91f8cbf792228549d10e334126d4c964e39ec0c",
     "scope": "all published files except provenance, .git and .github; includes retained static chunks"
   },
-  "generated_at": "2026-11-20T12:04:09.134995+00:00",
+  "generated_at": "2026-11-20T12:08:27.443364+00:00",
   "provenance_mode": "postbuild_source_and_export_inventory",
-  "release": "connections-chat-r19",
+  "release": "accounting-real-r20",
   "schema_version": 2,
   "source": {
     "base_commit": null,
     "commit_is_base_only": true,
     "tree_manifest": "build-inputs.json",
-    "tree_sha256": "bc02a09f6b3665af41dabd07443eb149c95177ff619071a2edb72e0cde83463c"
+    "tree_sha256": "1d0b0fcf0c49cd1bfe70de2e3310d818149775091e4b557ab5fddc433a6e4a0e"
   }
 }
