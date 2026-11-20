@@ -4,19 +4,19 @@
     "reason": "Gateway deploys independently; no backend identity inferred from a frontend build"
   },
   "export": {
-    "file_count": 449,
+    "file_count": 483,
     "manifest": "build-files.json",
-    "manifest_sha256": "d7a6252ad5c8a5ac8d3b226f3c8e3c44b34ab7248aa135f83537eab4496cfd77",
+    "manifest_sha256": "c6afdefbdd1589d958222a0fbf2a7c8591e7af494c5539f0290ab615b0ce1d81",
     "scope": "all published files except provenance, .git and .github; includes retained static chunks"
   },
-  "generated_at": "2026-11-20T22:41:03.751931+00:00",
+  "generated_at": "2026-11-20T22:55:42.675786+00:00",
   "provenance_mode": "postbuild_source_and_export_inventory",
-  "release": "cost-model-r40",
+  "release": "accounting-net208-r41",
   "schema_version": 2,
   "source": {
     "base_commit": null,
     "commit_is_base_only": true,
     "tree_manifest": "build-inputs.json",
-    "tree_sha256": "c5cb8036479a06acaa9a2b4a70cb372eba931f1a2dd6e671ade3ce904f1bd834"
+    "tree_sha256": "f912ab8b79def8d0d471058051cdd387dd1f8154ce3aa1af44ddd2a9ad6f4a30"
   }
 }
