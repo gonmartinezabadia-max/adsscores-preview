@@ -79,7 +79,7 @@
   "components/ClientActionBoundary.tsx": "2631d13a5cf7607667a293323eaf03b18617abc41f97da9f4abaf4a15ceeb778",
   "components/ClientActionVersionNotice.tsx": "0a82dc9242bf1b07ddd3febd9010f7f7f2baf5697fda257d849782a3e9910a29",
   "components/ConnectionOverview178.module.css": "35e917797a4c831c7f28127b2d7888f482fe4697c4131846bbadd14896ebd129",
-  "components/ConnectionOverview178.tsx": "f95335da1010e0ad1f9059ca8d4df9ab08ecd87f0ba6306638cd142514969409",
+  "components/ConnectionOverview178.tsx": "589824f08cc565f3c31ea5ab65364e0bde0f442814b470368a0e1319df11fa31",
   "components/ContabilidadReal.tsx": "5021a772c79a7a91f8df4081bdc8c087da6b707d0accf66feae52b49cb0f9d11",
   "components/DailyChart173.module.css": "5bd0117f75bac430ebe11de0858ae894dd067c14d561e0e06f16ceff369825b8",
   "components/DailyChart173.tsx": "c654456d2994cce535b4e0dd0ab58ea1183e517b846844b25d3e468e7c6f0699",
