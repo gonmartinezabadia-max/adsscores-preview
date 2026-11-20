@@ -3,4 +3,4 @@
 :HL["/adsscores-preview/_next/static/css/4016db36c183b14d.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"signup","h":96,"c":"$Q2"}]]
-0:{"b":"oMWpM8gtNgbYSqaL6DCw3","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"shLVOL3g9R9JsQJ6Pj-FE","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
