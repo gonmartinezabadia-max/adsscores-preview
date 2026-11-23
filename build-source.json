@@ -4,19 +4,19 @@
     "reason": "Gateway deploys independently; no backend identity inferred from a frontend build"
   },
   "export": {
-    "file_count": 1359,
+    "file_count": 1413,
     "manifest": "build-files.json",
-    "manifest_sha256": "4959d5aeecd265bc297d4f2eb27e5f23dd7312b190df309b5d9c59ce4d29814e",
+    "manifest_sha256": "a7afd1d041c6507f0307910aefaccf6dc7f571eed6374fd4ff1e94510f5fbae6",
     "scope": "all published files except provenance, .git and .github; includes retained static chunks"
   },
-  "generated_at": "2026-11-23T08:34:39.539191+00:00",
+  "generated_at": "2026-11-23T18:16:39.946024+00:00",
   "provenance_mode": "postbuild_source_and_export_inventory",
-  "release": "joint275-home-chat-v6.1-23nov",
+  "release": "google-home289-r3",
   "schema_version": 2,
   "source": {
     "base_commit": null,
     "commit_is_base_only": true,
     "tree_manifest": "build-inputs.json",
-    "tree_sha256": "1f665d65ba2dde55b1150d2159bf6897ed41ded2bc53b02a5123a7c7af422eeb"
+    "tree_sha256": "18a2da05494e8d4368016e3a0a0db6c2e2944c1e590fc33495ebadef4e884c83"
   }
 }
