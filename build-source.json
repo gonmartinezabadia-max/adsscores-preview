@@ -4,14 +4,14 @@
     "reason": "Gateway deploys independently; no backend identity inferred from a frontend build"
   },
   "export": {
-    "file_count": 1917,
+    "file_count": 1920,
     "manifest": "build-files.json",
-    "manifest_sha256": "6204d9a4daa78e127ced27c872ab771459b743f2641de8d67c35343507ee6f59",
+    "manifest_sha256": "6061da193ec0f13303cf12d9a66d7d6410dc27341c0b30a0ef8010335c453707",
     "scope": "all published files except provenance, .git and .github; includes retained static chunks"
   },
-  "generated_at": "2026-11-24T16:47:29.056288+00:00",
+  "generated_at": "2026-11-24T17:03:02.676758+00:00",
   "provenance_mode": "postbuild_source_and_export_inventory",
-  "release": "home326-off",
+  "release": "home326-single-read",
   "schema_version": 2,
   "source": {
     "base_commit": null,
