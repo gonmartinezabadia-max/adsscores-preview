@@ -4,19 +4,19 @@
     "reason": "Gateway deploys independently; no backend identity inferred from a frontend build"
   },
   "export": {
-    "file_count": 1554,
+    "file_count": 1605,
     "manifest": "build-files.json",
-    "manifest_sha256": "b226ecb132ede981d691451b2907ff735abc458a2a947a795f225cd6152fe20f",
+    "manifest_sha256": "8b12f8b114a84a420987f8cab1dcf51552dfc2441c45d39687591b5eb17c590f",
     "scope": "all published files except provenance, .git and .github; includes retained static chunks"
   },
-  "generated_at": "2026-11-24T09:38:44.231460+00:00",
+  "generated_at": "2026-11-24T11:42:49.648865+00:00",
   "provenance_mode": "postbuild_source_and_export_inventory",
-  "release": "ux301-r7b",
+  "release": "ui313-readonly-local-review",
   "schema_version": 2,
   "source": {
     "base_commit": null,
     "commit_is_base_only": true,
     "tree_manifest": "build-inputs.json",
-    "tree_sha256": "c17b5f36274a5c31c22e2d4fedca45878f4c68abebb0d70cc3cf27c55d9b6cb2"
+    "tree_sha256": "2bcdf79eda996cc67788fddd4274f6430b7334375b54bc46808258c2cf024725"
   }
 }
