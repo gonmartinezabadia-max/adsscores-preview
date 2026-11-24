@@ -77,7 +77,7 @@
   "chat/chat-ui/chatViewModel.ts": "02ffc258d78c1aee05f48bed17d28d435858bd6eaf2a5678bc3d927419e38d1e",
   "chat/chat-ui/connectionViewModel.ts": "8476e9206637442d290da74a81496760945d2dc8e61380f35e804e0900c779dd",
   "chat/chat-ui/viewModels.test.ts": "9e1777cc71b6bd27e6f98c04ebde9aae75f85879f66ff406353cf372f2248c38",
-  "components/AcceptanceQA317.tsx": "e22d4a614df557dd0bcf92915c232f6beb248c8a3c7439e3324ee4c3d08c9ce0",
+  "components/AcceptanceQA317.tsx": "4999a0c745ec50d2fcd698dcf684a9a237f98e1e80dbd689e8970fb5175f56dc",
   "components/AccountingFees.tsx": "d2d638999525ca382dd9789507a45418537dd1c688d49cc077281fd78c8ca5f8",
   "components/ActionCard.tsx": "220c75ad91b884f55aabf653b9e68a869ab20f2e675df536906cedd0dfa322a4",
   "components/AgentMap139.tsx": "aeb198c83d484379ddfb2cbd85cfdc1322a6aa93541223b29c480d821eb81611",
