@@ -4,19 +4,19 @@
     "reason": "Gateway deploys independently; no backend identity inferred from a frontend build"
   },
   "export": {
-    "file_count": 2227,
+    "file_count": 2280,
     "manifest": "build-files.json",
-    "manifest_sha256": "4de22a3a157b15dfd8bd0ee8791169d0d74d0292f3e74c2018d3ba98d9642f4e",
+    "manifest_sha256": "d75393800fdb4ae899c0bce5b270dcd30f32bf796996f9237f3cc6cfa0491d13",
     "scope": "all published files except provenance, .git and .github; includes retained static chunks"
   },
-  "generated_at": "2026-11-25T10:59:16.589777+00:00",
+  "generated_at": "2026-11-25T11:37:17.107723+00:00",
   "provenance_mode": "postbuild_source_and_export_inventory",
-  "release": "themes360-auth-only-client-c29f-1156",
+  "release": "themes360-chat-1235",
   "schema_version": 2,
   "source": {
     "base_commit": null,
     "commit_is_base_only": true,
     "tree_manifest": "build-inputs.json",
-    "tree_sha256": "2fdd7f9e3d0c040a89ad3a447812bd6beca8fee16f7f9465f87d27cf65acdaa4"
+    "tree_sha256": "ae1054f9c0985ff6fbfb13246771df013be4eae813ae4eac8c22336cccbd2474"
   }
 }
