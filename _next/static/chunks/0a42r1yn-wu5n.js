@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,95226,t=>{"use strict";var e=t.i(50910),i=t.i(50131),s=t.i(63721),l=t.i(30805),o=t.i(72165);t.s(["default",0,function(){return(0,e.jsx)(s.f,{children:t=>(0,e.jsxs)(l.f,{title:"Meta",who:t,children:[(0,e.jsx)(i.default,{}),(0,e.jsx)(o.f,{platform:"Meta"})]})})}])}]);

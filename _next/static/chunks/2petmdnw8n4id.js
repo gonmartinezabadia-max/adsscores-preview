@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,23046,i=>{"use strict";var t=i.i(50910),o=i.i(93405),e=i.i(35599),r=i.i(37285);i.s(["default",0,function(){return(0,t.jsx)(o.f,{children:i=>(0,t.jsx)(e.f,{title:"TikTok",who:i,children:(0,t.jsx)(r.f,{platform:"TikTok"})})})}])}]);
