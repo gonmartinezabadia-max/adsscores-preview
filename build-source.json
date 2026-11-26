@@ -6,17 +6,17 @@
   "export": {
     "file_count": 3009,
     "manifest": "build-files.json",
-    "manifest_sha256": "d070f9cceb2d6d45575fd4e40021614aa29a06619c952c4aacb627d8aad7a869",
+    "manifest_sha256": "d2f56838d37aaf482680f8b6fe35e08986a0d664eefa79df64729098c620b546",
     "scope": "all published files except provenance, .git and .github; includes retained static chunks"
   },
-  "generated_at": "2026-11-26T14:04:08.883228+00:00",
-  "provenance_mode": "postbuild_source_and_export_inventory",
-  "release": "chat445-readonly-f7aaced-1500",
+  "generated_at": "2026-11-26T14:08:58.569823+00:00",
+  "provenance_mode": "retrospective_existing_export",
+  "release": "rollback445-to-reviewed01b5101d-1509",
   "schema_version": 2,
   "source": {
     "base_commit": null,
     "commit_is_base_only": true,
     "tree_manifest": "build-inputs.json",
-    "tree_sha256": "8f4fc652e76f721943224cf64e02dd9734980ef00003aad4721301b213c58695"
+    "tree_sha256": "4cffb8611683403d2b321591af8bf45e97a65ac3f6d330d1f69c08719be3207a"
   }
 }
