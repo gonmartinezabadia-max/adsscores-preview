@@ -4,14 +4,14 @@
     "reason": "Gateway deploys independently; no backend identity inferred from a frontend build"
   },
   "export": {
-    "file_count": 2752,
+    "file_count": 2753,
     "manifest": "build-files.json",
-    "manifest_sha256": "085e9bcd03cd60e7d7d096a8fd1f782e7c189a93e9c03ca9e31b76cfe623378f",
+    "manifest_sha256": "ced88a85d278a3d323836e7070519c9939a61b3cc8be7e302f6bba982acdabd8",
     "scope": "all published files except provenance, .git and .github; includes retained static chunks"
   },
-  "generated_at": "2026-11-26T08:34:15.640123+00:00",
+  "generated_at": "2026-11-26T08:36:37.091359+00:00",
   "provenance_mode": "retrospective_existing_export",
-  "release": "TEST418-ADDITIVE-RETAIN-83c1df",
+  "release": "DAWN-GENERIC-ZIP-DIRECT",
   "schema_version": 2,
   "source": {
     "base_commit": null,
