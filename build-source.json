@@ -4,19 +4,19 @@
     "reason": "Gateway deploys independently; no backend identity inferred from a frontend build"
   },
   "export": {
-    "file_count": 250,
+    "file_count": 2942,
     "manifest": "build-files.json",
-    "manifest_sha256": "b7dc53743f5611fc26d8cb909058c2d320e28336691857fd7ed240e1d9bc570f",
+    "manifest_sha256": "22bbf2d0456327c2b77f9aea5a0493c65e2c3f9c5c3fe4e9a96cdebdfdbc7c45",
     "scope": "all published files except provenance, .git and .github; includes retained static chunks"
   },
-  "generated_at": "2026-11-26T13:10:30.167280+00:00",
+  "generated_at": "2026-11-26T12:01:07.273979+00:00",
   "provenance_mode": "postbuild_source_and_export_inventory",
-  "release": "SHOP444T-IDENTITY-LOCAL",
+  "release": "SHOP444M-OFF-REVIEW",
   "schema_version": 2,
   "source": {
     "base_commit": null,
     "commit_is_base_only": true,
     "tree_manifest": "build-inputs.json",
-    "tree_sha256": "4cffb8611683403d2b321591af8bf45e97a65ac3f6d330d1f69c08719be3207a"
+    "tree_sha256": "268e81318198428be2f1bbaf15e085cdce6dc0fa0151833b45f8c9faa8d8fbcb"
   }
 }
